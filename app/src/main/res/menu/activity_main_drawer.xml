@@ -32,6 +32,14 @@
             android:id="@+id/cameraFragment"
             android:icon="@drawable/ic_menu_camera"
             android:title="Camera"/>
+        <item
+            android:id="@+id/sensorFragment"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Sensor"/>
+        <item
+            android:id="@+id/recordAudioFragment"
+            android:title="recordAudioFragment"
+            android:icon="@android:drawable/presence_audio_online"/>
 
     </group>
 </menu>

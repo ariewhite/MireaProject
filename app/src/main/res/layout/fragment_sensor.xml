@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.sensor.SensorFragment">
+
+
+    <TextView
+        android:id="@+id/acelValueX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="acel-x"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/acelValueY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="acel-y"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/acelValueZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="acel-z"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="20dp"/>
+    <TextView
+        android:id="@+id/tempValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="temp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="20dp"/>
+    <TextView
+        android:id="@+id/lightValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="light"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="20dp"/>
+</FrameLayout>

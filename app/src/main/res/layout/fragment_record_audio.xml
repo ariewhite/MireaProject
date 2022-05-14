@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.record.recordAudioFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="462dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/startRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="start recording"
+            android:layout_gravity="end"/>
+
+        <Button
+            android:id="@+id/stopRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop Recording" />
+
+        <Button
+            android:id="@+id/playAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="play Audio" />
+
+        <Button
+            android:id="@+id/stopAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="stop play" />
+    </LinearLayout>
+
+</FrameLayout>

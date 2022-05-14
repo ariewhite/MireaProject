@@ -35,6 +35,16 @@
     <fragment
         android:id="@+id/cameraFragment"
         android:name="com.example.mireaproject.ui.camera.CameraFragment"
-        android:label="fragment_camera"
+        android:label="Camera"
         tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/sensorFragment"
+        android:name="com.example.mireaproject.ui.sensor.SensorFragment"
+        android:label="Sensors "
+        tools:layout="@layout/fragment_sensor" />
+    <fragment
+        android:id="@+id/recordAudioFragment"
+        android:name="com.example.mireaproject.ui.record.recordAudioFragment"
+        android:label="record"
+        tools:layout="@layout/fragment_record_audio" />
 </navigation>
